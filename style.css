@@ -1,12 +1,13 @@
+
 @font-face {
-  font-family: 'modular';
-  src: url('modular.ttf') format('opentype');
+  font-family: 'ledlight';
+  src: url(LEDLIGHT.otf) format('opentype');
 }
 
 .headname {
-  font-family: modular;
+  font-family: ledlight;
   font-size: 150px;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 body {
@@ -19,4 +20,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column
+}
+
+.tir {
+  font-family: ledlight;
+  font-size: 70px;
 }
