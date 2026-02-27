@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'modular';
+  src: url('modular.ttf') format('opentype');
+}
+
+.headname {
+  font-family: modular;
+  font-size: 150px;
+  margin-top: 100px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.div1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
